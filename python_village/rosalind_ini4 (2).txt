@@ -1,0 +1,7 @@
+4625 9225
+
+total = 0
+for i in range(4625,9226):
+ if i % 2 == 1:
+  total = total + i
+ print(total)
